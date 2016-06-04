@@ -10,8 +10,8 @@ folders:
       to: /var/www/devel/iks
 
 sites:
-    - host: "iks.dev"
-      folder: "/var/www/devel/iks/public"
+    - host: "xyz.dev"
+      folder: "/var/www/devel/xyz/public"
 
 #    - map: dev.budget
 #      to: /var/www/budget.v3/public
@@ -29,15 +29,15 @@ postgresql:
 
 
 mysql_dbs:
-    - name: devdb
-      user: devdb
+    - name: xyzdb
+      user: xyzdb
       pass: 123
       file: /vagrant/data/sql/db.sql
 
 
 #postgresql_dbs:
-#    - name: devdb
-#      user: devdb
+#    - name: xyzdb
+#      user: xyzdb
 #      pass: 123
 #      file: /vagrant/data/sql/db.sql
 
