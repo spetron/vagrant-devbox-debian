@@ -7,7 +7,7 @@ box:
 
 folders:
     - map: ./
-      to: /var/www/devel/iks
+      to: /var/www/devel/xyz
 
 sites:
     - host: "xyz.dev"
