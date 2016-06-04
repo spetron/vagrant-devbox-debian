@@ -13,8 +13,8 @@ sites:
     - host: "xyz.dev"
       folder: "/var/www/devel/xyz/public"
 
-#    - map: dev.budget
-#      to: /var/www/budget.v3/public
+#    - map: foo.dev
+#      to: /var/www/devel/foo/public
 
 
 mysql:
