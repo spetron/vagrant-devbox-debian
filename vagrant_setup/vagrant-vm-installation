@@ -1,0 +1,30 @@
+install virtualbox
+install vagrant
+###phpstorm->terminal: vagrant plugin install vagrant-vbguest
+
+debian 8
+  config.vm.box = "debian/contrib-jessie64"
+  config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
+
+
++ hostname 
++/etc/hosts
+php7
+mysql 5.7
+postgresql 9.4
+php7-*
+certbot ssl
+mysqltuner
+vhost sites
+aliases
+
+windows: hosts
+192.168.10.10 dev.box
+
+
+sources
+    https://github.com/mwalters/simple-vagrant-lamp
+    https://github.com/Divi/vagrant-bootstrap
+    https://blog.heitorsilva.com/en/python/vagrant-1-8-1-no-windows-10-com-virtualbox/
+        fix no tty error
+        postgre 9.5 install
